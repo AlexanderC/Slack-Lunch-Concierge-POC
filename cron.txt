@@ -1,0 +1,2 @@
+20 11 * * 1-5 sudo -uwww-data php %project_root%/cron.php remind
+00 12 * * 1-5 sudo -uwww-data php %project_root%/cron.php link
