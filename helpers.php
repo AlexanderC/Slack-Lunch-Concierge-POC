@@ -5,7 +5,7 @@ define('HOOK_URL', "https://hooks.slack.com/services/T02A8CWUV/B03CBQUM8/D5Va6Kx
 define('TOKEN', "OJaDKub39pmmkuX2367QaXjm");
 define('COMM', "/eat");
 
-define('DEF_ICON', BASE_URL + "assets/lunch.png");
+define('DEF_ICON', BASE_URL . "assets/lunch.png");
 define('DEF_NAME', "Lunch Concierge");
 
 function text($msg, $name=DEF_NAME, $icon=DEF_ICON) {
@@ -16,7 +16,7 @@ function text($msg, $name=DEF_NAME, $icon=DEF_ICON) {
 	);
 
 	$data_string = json_encode($payload);
-
+var_dump($payload);exit;
 	$ch = curl_init();
 
 	curl_setopt($ch, CURLOPT_URL, HOOK_URL);
