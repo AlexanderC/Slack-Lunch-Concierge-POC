@@ -1,8 +1,8 @@
 <?php
 
-define('BASE_URL', "http://slack-wh.alexanderc.me/");
-define('HOOK_URL', "https://hooks.slack.com/services/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");
-define('TOKEN', "OJaDKub39pmmkuX2367QaXjm");
+define('BASE_URL', "http://slack.example.com/");
+define('HOOK_URL', "https://hooks.slack.com/services/kjnergre/egrerger/D5Va6KxknTT0esrmqDxk54NA");
+define('TOKEN', "wergowierh7owijerpohijw");
 define('COMM', "/eat");
 
 define('DEF_ICON', BASE_URL . "assets/lunch.png");
