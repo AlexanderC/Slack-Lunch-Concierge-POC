@@ -16,7 +16,7 @@ function text($msg, $name=DEF_NAME, $icon=DEF_ICON) {
 	);
 
 	$data_string = json_encode($payload);
-var_dump($payload);exit;
+
 	$ch = curl_init();
 
 	curl_setopt($ch, CURLOPT_URL, HOOK_URL);
