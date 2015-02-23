@@ -33,4 +33,4 @@ try {
 	exit("ERROR! " . $e->getMessage());
 }
 
-exit("Thank You for using " . DEF_NAME  . ". Your request were added.");
+exit("Thank You for using " . DEF_NAME  . ". Your request was added.");
