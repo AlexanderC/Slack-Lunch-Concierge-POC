@@ -18,7 +18,7 @@ if($command !== COMM) {
 }
 
 try {
-	$p = str_replace('—', '--, strtolower(trim($payload)));
+	$p = str_replace('—', '--', strtolower(trim($payload)));
 	if ($p == '--help') {
 		exit('Options: `--link`, `--list`, `--help`');
 	} elseif($p == '--list') {
